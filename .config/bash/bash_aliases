@@ -1,0 +1,7 @@
+alias ll='ls -lh --color=auto'
+alias la='ls -alh --color=auto'
+alias nv='nvim'
+alias vi='nvim'
+
+alias grep='grep --color=auto'
+

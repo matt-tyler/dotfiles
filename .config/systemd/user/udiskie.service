@@ -1,0 +1,10 @@
+[Unit]
+Description=Automounting
+After=default.target
+
+[Service]
+ExecStart=/usr/bin/udiskie
+Restart=always
+
+[Install]
+WantedBy=default.target
